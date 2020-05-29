@@ -1,10 +1,13 @@
 {
-  "name": "cz-emoji",
-  "version": "1.2.1",
+  "name": "cz-emoji-darkdev",
+  "version": "1.2.2",
   "description": "Commitizen adapter formatting commit messages using emojis.",
-  "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh/)",
+  "author": {
+    "name": "Oleg_DarkDev",
+    "email": "darkdev.brand@gmail.com"
+  },
   "license": "MIT",
-  "repository": "ngryman/cz-emoji",
+  "repository": "olegtempl/cz-emoji",
   "main": "index.js",
   "engines": {
     "node": ">=4"
