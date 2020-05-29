@@ -1,20 +1,44 @@
 [{
+    "emoji": "✨",
+    "code": ":sparkles:",
+    "description": "Introducing new features.",
+    "name": "feature"
+  },
+  {
+    "emoji": "💩",
+    "code": ":poop:",
+    "description": "Writing bad code that needs to be improved.",
+    "name": "poo"
+  },
+  {
+    "emoji": "♻️",
+    "code": ":recycle:",
+    "description": " Refactoring code.",
+    "name": "refactoring"
+  },
+  {
+    "emoji": "💥",
+    "code": ":boom:",
+    "description": "Introducing breaking changes.",
+    "name": "breaking"
+  },
+  {
     "emoji": "🎨",
     "code": ":art:",
     "description": "Improving structure / format of the code.",
     "name": "style"
   },
   {
-    "emoji": "⚡️",
-    "code": ":zap:",
-    "description": "Improving performance.",
-    "name": "perf"
+    "emoji": "💄",
+    "code": ":lipstick:",
+    "description": "Updating the UI and style files.",
+    "name": "ui"
   },
   {
-    "emoji": "🔥",
-    "code": ":fire:",
-    "description": "Removing code or files.",
-    "name": "prune"
+    "emoji": "🚧",
+    "code": ":construction:",
+    "description": "Work in progress.",
+    "name": "wip"
   },
   {
     "emoji": "🐛",
@@ -29,12 +53,29 @@
     "name": "quickfix"
   },
   {
-    "emoji": "✨",
-    "code": ":sparkles:",
-    "description": "Introducing new features.",
-    "name": "feature"
+    "emoji": "💡",
+    "code": ":bulb:",
+    "description": "Documenting source code.",
+    "name": "docs-code"
   },
-
+  {
+    "emoji": "🏗",
+    "code": ":building_construction:",
+    "description": " Making architectural changes.",
+    "name": "arch"
+  },
+  {
+    "emoji": "⚡️",
+    "code": ":zap:",
+    "description": "Improving performance.",
+    "name": "perf"
+  },
+  {
+    "emoji": "🔥",
+    "code": ":fire:",
+    "description": "Removing code or files.",
+    "name": "prune"
+  },
   {
     "emoji": "🗃",
     "code": ":card_file_box:",
@@ -42,52 +83,43 @@
     "name": "db"
   },
   {
-    "emoji": "💄",
-    "code": ":lipstick:",
-    "description": "Updating the UI and style files.",
-    "name": "ui"
-  },
-  {
-    "emoji": "🚧",
-    "code": ":construction:",
-    "description": "Work in progress.",
-    "name": "wip"
-  },
-
-  {
-    "emoji": "💥",
-    "code": ":boom:",
-    "description": "Introducing breaking changes.",
-    "name": "breaking"
-  },
-
-  {
     "emoji": "👌",
     "code": ":ok_hand:",
     "description": "Updating code due to code review changes.",
     "name": "review"
   },
-
-  {
-    "emoji": "💡",
-    "code": ":bulb:",
-    "description": "Documenting source code.",
-    "name": "docs-code"
-  },
-
   {
     "emoji": "📈",
     "code": ":chart_with_upwards_trend:",
     "description": "Adding analytics or tracking code.",
     "name": "analytics"
   },
+
   {
-    "emoji": "♻️",
-    "code": ":recycle:",
-    "description": " Refactoring code.",
-    "name": "refactoring"
+    "emoji": "🔧",
+    "code": ":wrench:",
+    "description": "Changing configuration files.",
+    "name": "config"
   },
 
+  {
+    "emoji": "🌐",
+    "code": ":globe_with_meridians:",
+    "description": "Internationalization and localization.",
+    "name": "i18n"
+  },
+  {
+    "emoji": "📦",
+    "code": ":package:",
+    "description": "Updating compiled files or packages.",
+    "name": "dep-up"
+  },
+  {
+    "emoji": "🔀",
+    "code": ":twisted_rightwards_arrows:",
+    "description": "Merging branches.",
+    "name": "merge"
+  },
   {
     "emoji": "➕",
     "code": ":heavy_plus_sign:",
@@ -101,39 +133,6 @@
     "name": "dep-rm"
   },
   {
-    "emoji": "🔧",
-    "code": ":wrench:",
-    "description": "Changing configuration files.",
-    "name": "config"
-  },
-  {
-    "emoji": "🌐",
-    "code": ":globe_with_meridians:",
-    "description": "Internationalization and localization.",
-    "name": "i18n"
-  },
-
-  {
-    "emoji": "💩",
-    "code": ":poop:",
-    "description": "Writing bad code that needs to be improved.",
-    "name": "poo"
-  },
-
-  {
-    "emoji": "🔀",
-    "code": ":twisted_rightwards_arrows:",
-    "description": "Merging branches.",
-    "name": "merge"
-  },
-
-  {
-    "emoji": "📦",
-    "code": ":package:",
-    "description": "Updating compiled files or packages.",
-    "name": "dep-up"
-  },
-  {
     "emoji": "👽",
     "code": ":alien:",
     "description": "Updating code due to external API changes.",
@@ -145,20 +144,12 @@
     "description": "Moving or renaming files.",
     "name": "mv"
   },
-
-  {
-    "emoji": "🏗",
-    "code": ":building_construction:",
-    "description": " Making architectural changes.",
-    "name": "arch"
-  },
   {
     "emoji": "📱",
     "code": ":iphone:",
     "description": "Working on responsive design.",
     "name": "iphone"
   },
-
   {
     "emoji": "🔍",
     "code": ":mag:",
