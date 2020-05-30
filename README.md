@@ -184,3 +184,266 @@ MIT © [Nicolas Gryman](http://ngryman.sh)
 
 [commitizen]: https://github.com/commitizen/cz-cli
 [inquirer.js]: https://github.com/SBoudrias/Inquirer.js/
+
+
+ /*
+
+
+   {
+      emoji: "🔊",
+      code: ":loud_sound:",
+      description: "Adding logs.",
+      name: "log-add"
+    },
+    {
+      emoji: "🔇",
+      code: ":mute:",
+      description: "Removing logs.",
+      name: "log-rm"
+    },
+        {
+      emoji: "📝",
+      code: ":pencil:",
+      description: "Writing docs.",
+      name: "docs"
+    },
+    {
+      emoji: "💬",
+      code: ":speech_balloon:",
+      description: "Updating text and literals.",
+      name: "texts"
+    },
+            emoji: "📸",
+          code: ":camera_flash:",
+          description: "Adding or updating snapshots",
+          name: "camera-flash"
+        },
+
+  // chrome, firefox, safari, mobile ios, mobile anroid.
+{
+      emoji: "🍎",
+      code: ":apple:",
+      description: "Fixing something on macOS.",
+      name: "osx"
+    },
+    {
+      emoji: "🐧",
+      code: ":penguin:",
+      description: "Fixing something on Linux.",
+      name: "linux"
+    },
+    {
+      emoji: "🏁",
+      code: ":checkered_flag:",
+      description: "Fixing something on Windows.",
+      name: "windows"
+    },
+    {
+      emoji: "🤖",
+      code: ":robot:",
+      description: "Fixing something on Android.",
+      name: "android"
+    },
+    {
+      emoji: "🍏",
+      code: ":green_apple:",
+      description: "Fixing something on iOS.",
+      name: "ios"
+    },
+    {
+      emoji: "🚨",
+      code: ":rotating_light:",
+      description: "Removing linter warnings.",
+      name: "lint"
+    },
+        {
+      emoji: "💚",
+      code: ":green_heart:",
+      description: "Fixing CI Build.",
+      name: "fix-ci"
+    },
+
+  // issue
+    {
+      emoji: "🔒",
+      code: ":lock:",
+      description: "Fixing security issues.",
+      name: "security"
+    },
+
+
+      {
+      emoji: "🤡",
+      code: ":clown_face:",
+      description: "Mocking things.",
+      name: "clown-face"
+    },
+    {
+      emoji: "🥚",
+      code: ":egg:",
+      description: "Adding an easter egg.",
+      name: "egg"
+    },
+
+      {
+      emoji: "🚀",
+      code: ":rocket:",
+      description: "Deploying stuff.",
+      name: "deploy"
+    },
+    {
+      emoji: "✏️",
+      code: ":pencil2:",
+      description: " Fixing typos.",
+      name: "typo"
+    },
+        {
+      emoji: "🐳",
+      code: ":whale:",
+      description: "Work about Docker.",
+      name: "docker"
+    },
+
+    {
+      emoji: "♿️",
+      code: ":wheelchair:",
+      description: "Improving accessibility.",
+      name: "access"
+    },
+        {
+      emoji: "🍻",
+      code: ":beers:",
+      description: "Writing code drunkenly.",
+      name: "beer"
+    },
+    {
+
+    {
+      emoji: "🙈",
+      code: ":see_no_evil:",
+      description: "Adding or updating a .gitignore file",
+      name: "see-no-evil"
+    },
+    {
+      emoji: "⚗",
+      code: ":alembic:",
+      description: " Experimenting new things",
+      name: "experiment"
+    },
+       {
+      emoji: "☸️",
+      code: ":wheel_of_dharma:",
+      description: " Work about Kubernetes",
+      name: "k8s"
+    },
+    {
+      emoji: "🏷️",
+      code: ":label:",
+      description: " Adding or updating types (Flow, TypeScript)",
+      name: "types"
+    },
+    {
+      emoji: "🌱",
+      code: ":seedling:",
+      description: "Adding or updating seed files",
+      name: "seed"
+    },
+    {
+      emoji: "🚩",
+      code: ":triangular_flag_on_post:",
+      description: "Adding, updating, or removing feature flags",
+      name: "flags"
+    },
+    {
+      emoji: "💫",
+      code: ":dizzy:",
+      description: "Adding or updating animations and transitions",
+      name: "animation"
+    }
+
+
+    {
+      emoji: "👥",
+      code: ":busts_in_silhouette:",
+      description: "Adding contributor(s).",
+      name: "contrib-add"
+    },
+    {
+      emoji: "🚸",
+      code: ":children_crossing:",
+      description: "Improving user experience / usability.",
+      name: "ux"
+    },
+
+
+
+    // REMAINS repository
+    {
+      emoji: "⏪",
+      code: ":rewind:",
+      description: "Reverting changes.",
+      name: "revert"
+    },
+     {
+      emoji: "🔖",
+      code: ":bookmark:",
+      description: "Releasing / Version tags.",
+      name: "release"
+    },
+
+    // сомнительные управление зависимостями
+     {
+      emoji: "⬇️",
+      code: ":arrow_down:",
+      description: " Downgrading dependencies.",
+      name: "downgrade"
+    },
+    {
+      emoji: "⬆️",
+      code: ":arrow_up:",
+      description: " Upgrading dependencies.",
+      name: "upgrade"
+    },
+    {
+      emoji: "📌",
+      code: ":pushpin:",
+      description: "Pinning dependencies to specific versions.",
+      name: "pushpin"
+    },
+
+
+      // сомнительное для иннициализации репозитория
+    {
+      emoji: "👷",
+      code: ":construction_worker:",
+      description: "Adding CI build system.",
+      name: "ci"
+    },
+        {
+      emoji: "🎉",
+      code: ":tada:",
+      description: "Initial commit.",
+      name: "init"
+    },
+    {
+      emoji: "✅",
+      code: ":white_check_mark:",
+      description: "Adding tests.",
+      name: "test"
+    },
+    {
+      emoji: "📄",
+      code: ":page_facing_up:",
+      description: "Adding or updating license.",
+      name: "license"
+    },
+        {
+      emoji: "🍱",
+      code: ":bento:",
+      description: "Adding or updating assets.",
+      name: "assets"
+    },
+
+
+
+   */
