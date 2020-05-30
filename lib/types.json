@@ -40,6 +40,12 @@
     "description": "Work in progress.",
     "name": "wip"
   },
+      {
+      "emoji": "✅",
+      "code": ":white_check_mark:",
+      "description": "Adding tests.",
+      "name": "test"
+    },
   {
     "emoji": "🐛",
     "code": ":bug:",
