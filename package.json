@@ -1,6 +1,6 @@
 {
   "name": "cz-emoji-darkdev",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Commitizen adapter formatting commit messages using emojis.",
   "author": {
     "name": "Oleg_DarkDev",
